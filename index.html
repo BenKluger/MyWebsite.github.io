@@ -22,72 +22,9 @@
         </div>
       </header>
 
-      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
-      <section class = "projects">
-        <div class="content-wrap">
-          <h2>Projects</h2>
-          <p><a  href = http://www.github.com/benkluger>My GitHub page</a></p>
-
-          <!-- Copy the whole <section> block to add more projects. -->
-          <section>
-            <h3>Project 1</h3>
-            <img src="project-thumbnail.png" alt="description of image">
-            <p>Working with another student to create a web-based messaging app for Comp-Sci students.</p>
-            <a class="btn" href="https://github.com/BenKluger/GroupProject" target="_blank">Web Chatting App for CS Students</a>
-          </section>
-
-          <section>
-            <h3>Project 2</h3>
-            <img src="project-thumbnail.png" alt="description of image">
-            <p>Group project head. Focused on overall development with a key focus on the factory design pattern.</p>
-            <a class="btn" href="https://github.com/BenKluger/RestaurantApp" target="_blank">Restaurant App</a>
-          </section>
-        </div>
-        <!-- End of Project block. -->
-      </section>
-
-      <!-- ***********************  WORK EXPERIENCE  *********************** -->
-      <section class = "work-experience">
-        <div class="content-wrap">
-          <h2>Work Experience</h2>
-          <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
-
-          <!-- Copy this whole <section> block to add more jobs. -->
-          <section>
-            <h3>Computer Science Tutor</h3>
-            <p>CUNY Queens College</p>
-            <p>March 2021 - Present</p>
-            <p>Helped comp-sci students with their projects, homework, and general code experience.</p>
-            <p>Classes:</p>
-            <ul>
-              <li>Java</li>
-              <li>C++</li>
-              <li>Computer Fundamentals</li>
-              <li>CS 240</li>
-            </ul>
-          </section>
-
-          <section>
-            <h3>Private Math Tutor</h3>
-            <p>Private</p>
-            <p>February 2021 - Present</p>
-            <p>Tutored a student with their fundamental math skills. Four months of work resulted in a 50% increased grade on the same diagnostic test.</p>
-          </section>
-
-          <section>
-            <h3>Direct Support Professional (DSP)</h3>
-            <p>Yedei Chesed ("Helping Hands")</p>
-            <p>December 2019 - December 2020</p>
-            <p>Guided special-needs adults toward independence</p>
-          </section>
-
-        </div>
-        <!-- End of Job block. -->
-      </section>
-
       <!-- ******************  EDUCATION & CERTIFICATIONS ****************** -->
       <section class = "education">
-        <div class="content-wrap">
+        <div class="content-wrap item-details">
           <h2>Education</h2>
 
           <!-- Copy this whole <section> block to add more schools. -->
@@ -96,14 +33,84 @@
             <p>Computer Science major with a minor in Mathematics - Graduating 2022</p>
             <p>Summary or accomplishments: Deans List, Presidential Scholar, ACM head</p>
           </section>
-
-          <section>
-            <h3>SUNY Rockland Community College - Suffern, NY</h3>
-            <p>Associates in Maths and Sciences Track - January 2019 - May 2020</p>
-            <p>Summary or accomplishments: Deans List, ACM head</p>
-          </section>
         </div>
         <!-- End of School block. -->
+      </section>
+
+      <!-- ***********************  WORK EXPERIENCE  *********************** -->
+      <section class = "work-experience">
+        <div class="content-wrap item-details divider">
+          <h2>Work Experience</h2>
+          <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+          <!-- Copy this whole <section> block to add more jobs. -->
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Computer Science Tutor</h3>
+              <p>CUNY Queens College</p>
+              <p>March 2021 - Present</p>
+            </div>
+            <div class="job-summary">
+              <p>Helped comp-sci students with their projects, homework, and general code experience.</p>
+              <p>Classes:</p>
+              <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>Computer Fundamentals</li>
+                <li>CS 240</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class = "job-item">
+            <div class="job-details">
+              <h3>Private Math Tutor</h3>
+              <p>Private</p>
+              <p>February 2021 - Present</p>
+            </div>
+            <div class="summary">
+              <p>Tutored a student with their fundamental math skills. Four months of work resulted in a 50% increased grade on the same diagnostic test.</p>
+            </div>
+          </section>
+
+          <section class="job-item">
+            <div class="job-details">
+              <h3>Direct Support Professional (DSP)</h3>
+              <p>Yedei Chesed ("Helping Hands")</p>
+              <p>December 2019 - December 2020</p>
+            </div>
+            <div class="job-summary">
+              <p>Guided special-needs adults toward independence</p>
+            </div>
+          </section>
+
+        </div>
+        <!-- End of Job block. -->
+      </section>
+
+
+      <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
+      <section class = "projects">
+        <div class="content-wrap divider">
+          <h2>Projects</h2>
+          <p><a  href = http://www.github.com/benkluger>My GitHub page</a></p>
+
+          <!-- Copy the whole <section> block to add more projects. -->
+          <section class="project-item">
+            <img src="images/thumbnail-2.jpg" alt="description of image">
+            <h3>Project 1</h3>
+            <p>Working with another student to create a web-based messaging app for Comp-Sci students.</p>
+            <a class="btn" href="https://github.com/BenKluger/GroupProject" target="_blank">Web Chatting App for CS Students</a>
+          </section>
+
+          <section class="project-item">
+            <img src="images/thumbnail-3.jpg" alt="description of image">
+            <h3>Project 2</h3>
+            <p>Group project head. Focused on overall development with a key focus on the factory design pattern.</p>
+            <a class="btn" href="https://github.com/BenKluger/RestaurantApp" target="_blank">Restaurant App</a>
+          </section>
+        </div>
+        <!-- End of Project block. -->
       </section>
 
       <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
@@ -112,7 +119,7 @@
           <h2>Let's Keep in Touch!</h2>
 
           <!-- Social media and contact links. Add or remove any networks. -->
-          <ul>
+          <ul class="contact-list">
             <li><a href="mailto:BennyKluger@gmail.com">BennyKluger@gmail.com</a></li>
             <li><a href="http://github.com/benkluger" target="_blank">GitHub.com/BenKluger</a></li>
             <li><a href="#" target="_blank">Twitter</a></li>
